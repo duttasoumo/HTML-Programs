@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Bestsellers</title>
+</head>
+<body bgcolor="pink">
+<table>
+<caption align="top">BESTSELLERS</caption>
+<tr bgcolor="skyblue">
+<td colspan="5">HOT SELLERS FOR THIS MONTH</td>
+</tr>
+<tr>
+<th rowspan="6" bgcolor="yellow" align="center">BASED ON THE RATINGS FROM DIFFERENT READERS</td>
+<th align="center">BOOK NAME</th>
+<th align="center">AUTHOR</th>
+<th align="center"> PUBLISHER</th>
+<th align="center"> PRICE</th>
+</tr>
+<tr>
+<td align="center">Playing It My Way</td>
+<td align="center">Sachin Tendulkar & B.Majumdar</td>
+<td align="center">Hodder Stoughton</td>
+<td align="center">560</td>
+</tr>
+<tr>
+<td align="center">The Monk Who Sold His Ferrari</td>
+<td align="center">Robin Sharma</td>
+<td align="center">Jaico</td>
+<td align="center">119</td>
+</tr>
+<tr>
+<td align="center">The Fault In Our Stars</td>
+<td align="center">John Green</td>
+<td align="center">Penguin Books Ltd</td>
+<td align="center">239</td>
+</tr>
+<tr>
+<td align="center">Wings Of Fire</td>
+<td align="center">APJ Abdul Kalam</td>
+<td align="center">Universities Press</td>
+<td align="center">193</td>
+</tr>
+<tr>
+<td align="center">The Secret</td>
+<td align="center">Byrne,Rhonda</td>
+<td align="center">Simon & Schuster</td>
+<td align="center">450</td>
+</tr>
+</table>
+</body>
+</html>

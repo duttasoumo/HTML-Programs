@@ -1,0 +1,134 @@
+COMPOSITE TYPES: (OBJECTS,ARRAYS,FUNCTIONS)
+
+ARRAYS:
+
+var myArray={21,33,55,66};   // numeric values
+var myArray={"sachin",33,true,-55,66,"x"}; //arbitrary data items
+
+-using new keyword to invoke the array objects constructor:
+
+             var myArray=new Array(1,5,"saurav",true); 
+
+Objects: window object, document object.
+
+objectname.methodname()
+document.write("javascript is an extended version of java in web based applications");
+
+with(document)
+{
+  write("this is easier");
+  write("than writing out");
+  write("the whole path");
+}
+
+var myArray=new Array(4);
+myArray[0]="Ravi";
+delete myArray[0];
+
+'+' (string op) 
+document.write("javascript is" + "very easy");
+
+var myName="Abhishek";
+document.write("Hello <i> " + myName+ "</i>");
+
+Flow Control statements:
+
+a)switch-case
+
+  var x=3;
+  switch(x)
+	{
+		case 1: alert('X is 1');
+			break;
+		case 2: alert('X is 2');
+			break;
+
+		case 3: alert('X is 3');
+			break;
+		default:alert('X is not 1,2 or 3');
+                  }
+b) loops
+
+i) while
+	var x=0
+	while(x<20)
+	{ 
+	   document.write(x);   // (x+ "<br/>")
+	   document.write("<br/>");
+	   x=x+1;
+	}
+	document.write("done");
+ii) for
+
+	for(x=0;x<10;x++)
+	{
+	document.write(x);
+	document.write("<br/>");
+	}
+iii) do-while
+	var x=0;
+	do
+	{
+	document.write(x);
+	document.write("<br/>");
+	x=x+1;
+	}while(x<10);
+
+iv) for-in construct
+	var aProperty;
+	for(aProperty in window)
+	{
+	
+	document.write(aProperty);
+	document.write("<br/>");
+	}
+
+alert(): alert("this is an imp msg");
+confirm() method:	confirm("Learn JS?");
+prompt() method:	
+var ans=prompt("What is Ur fav colour?","");
+
+write()
+writeln(): line break
+
+Weak typing:
+
+var myNumber;		//datatype of myNumber is undefined
+myNumber=13;	//
+myNumber="kolkata";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

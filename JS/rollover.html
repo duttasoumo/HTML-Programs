@@ -1,0 +1,43 @@
+<HTML>
+<HEAD>
+<TITLE>
+  Basic JavaScript Rollover by Joe Maller
+</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+  <!-- hide from non JavaScript Browsers
+
+  Rollimage = new Array()
+
+  Rollimage[0]= new Image(121,153)
+  Rollimage[0].src = "billi1.jpg"
+
+  Rollimage[1] = new Image(121,153)
+  Rollimage[1].src = "billi2.jpg"
+
+  function SwapOut(){
+    document.Rupert.src = Rollimage[1].src;
+    return true;
+  }
+
+  function SwapBack(){
+    document.Rupert.src = Rollimage[0].src; 
+    return true;
+  }
+
+// - stop hiding          --> 
+</SCRIPT>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<P align="center"> 
+<A HREF="http://www.joemaller.com/"
+  onmouseover="SwapOut()"
+  onmouseout="SwapBack()">
+<IMG SRC="billi1.jpg"
+  NAME="Rupert" 
+  WIDTH=121
+  HEIGHT=153
+  BORDER=0>
+</A> 
+
+</BODY> 
+</HTML> 

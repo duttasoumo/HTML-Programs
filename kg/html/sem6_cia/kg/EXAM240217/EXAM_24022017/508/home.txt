@@ -1,0 +1,9 @@
+<html>
+<head>
+<title>HOME</title>
+</head>
+<frameset cols="30%,70%">
+<frame src="index.html" name="window1" />
+<frame src="home.html" name="window2" />
+</frameset>
+</html>

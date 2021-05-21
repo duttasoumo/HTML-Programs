@@ -1,0 +1,32 @@
+x=x+1		x=x+1;
+y=y+1		y=y+1;
+
+var x;
+var x,y=2,z; //multple variable decln
+
+var stringData="javascript has strings";
+var numericData=3.14;
+var booleanData=true;
+
+document.write(4*3); //12
+document.write("<br/>"); 
+document.write("5" +5); //55
+document.write("5"-3); //2
+document.write("5-3");
+document.write(5*"5"); //25
+document.write("cat" -3); //NaN
+
+var x="5";
+alert (typeof x);
+
+
+
+
+
+
+
+
+
+
+
+

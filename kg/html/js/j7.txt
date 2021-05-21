@@ -1,0 +1,13 @@
+<HTML>
+<HEAD>
+<TITLE>JavaScript</TITLE>
+</HEAD>
+<BODY>
+
+<A HREF="" onmouseover="window.alert('Go Back To Home Page');
+document.bgColor='#EEFFFF'">
+Change the background color and bring up an alert box</A>
+
+</BODY>
+</HTML>
+

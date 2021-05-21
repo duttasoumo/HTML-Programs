@@ -1,0 +1,60 @@
+</font>
+
+<head>
+</head>
+
+<script type="text/javascript">
+
+function chk_name()
+{
+var x
+//x = document.getElementById("name").value
+x = document.forms[0].elements[0].value
+
+&nbsp;&nbsp;var myconString ="writting inside popup window"
+&nbsp;&nbsp;var heading = "ALL ABOUT ABC <BR>"
+&nbsp;&nbsp;var colour = "red";
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;heading = heading + "<form><input type='text' name='T1' size='20' value =" +&nbsp;&nbsp;x + ">"
+&nbsp;&nbsp;
+&nbsp;&nbsp;// SHALABH NOTE : Change input type='text' to&nbsp;&nbsp;input type='hidden' to hide the Value
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;heading = heading + "<input type='submit' value='Next' name='B1'></p></form>"
+
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;var myWin = open("", "TEST", "width=450,height=300");
+&nbsp;&nbsp;
+&nbsp;&nbsp;//myWin.document.write(heading.italics() + "<BR>");
+&nbsp;&nbsp;myWin.document.write(heading.fontsize(7).fontcolor(colour).bold().toUpperCase());
+&nbsp;&nbsp;myWin.document.write("<BR>" + myconString.toUpperCase());
+&nbsp;&nbsp;myWin.document.close(); // closes the stream to the window
+
+ }&nbsp;&nbsp;
+
+</script>
+
+
+
+
+
+<body>
+
+
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+
+<form>
+&nbsp;&nbsp;<p>Enter your Name : 
+&nbsp;&nbsp;<input type="text" name="T1" id="Name" size="31">
+&nbsp;&nbsp;<input type="submit" value="Enter" name="B1" onClick="chk_name()">
+&nbsp;&nbsp;<input type="reset" value="Reset" name="B2"></p>
+</form>
+
+</body>
+<font face="Courier, MS Sans Serif">

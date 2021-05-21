@@ -1,0 +1,27 @@
+<html>
+<head><title>CSS Forms:Focus and Required Fields</title>
+<style type="text/css" media="screen">
+body{background-color:skyblue;}
+input.required{background-color:pink;}
+input.focus{background-color:black;color:white;}
+label{font-weight:bold;font-size:20px;}
+label.required{color:red;}
+</style>
+</head>
+<body>
+<form>
+<label class="required">Name:
+<input type="text" name="name" id="name" size="30" maxlength="50" class="required"/>
+</label>
+<br/><br/>
+<label>Company:
+<input type="text" name="comp" id="comp" size="30" maxlength="50"/>
+</label>
+<br/><br/>
+<label class="required">EMail:
+<input type="text" name="email" id="email" size="50" maxlength="100" class="required"/>
+</label>
+<br/><br/>
+<input type="submit" value="submit">
+<input type="reset" value="clear">
+</form></body></html>

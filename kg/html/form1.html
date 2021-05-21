@@ -1,0 +1,82 @@
+<HTML>
+<head>FORMS
+<title>forms intro</title>
+<script language="Javascript">
+document.bgColor="skyblue"
+document.fgColor="black"
+</script>
+</head>
+<body>
+<h1> HTML & WEB DESIGN TIPS & TECHNIQUES</h1>
+
+<br/><br/>
+HERE IS A SIMPLE FORM WITH A TEXT BOX<br/>
+<form>
+<input  type="text" name="Username" value="USERNAME PLEASE"
+size="30" maxlength="60" />
+<br/>
+
+<b> <font color="red" face="tahoma" size="6">
+PULL DOWN MENUS</font></b><br/>
+<strong>DEGREE</strong>
+<select name="Qualification" id="Qualification">
+<option value="masters" >Masters</option>
+<option value="grad"  selected="selected">Graduate</option>
+<option value="undergrad">UG</option>
+</select><br/><br/>
+
+<input type="Submit" value="SUBMIT">
+
+<br/> <br/>
+<b>OPTGROUP CREATES MENU CATEGORIES</b>
+<br/><br/>
+<select name="Hardware" id="hardware">
+<optgroup label="HardDisks">
+<option value="Samsung">Samsung</option>
+<option value="Seagate">Seagate</option>
+</optgroup>
+<optgroup label="Monitors">
+<option value="Sony">Sony</option>
+<option value="lg">LG</option>
+</optgroup>
+</select>
+<br/><br/>
+<b>SELECT MORE THAN ONE ENTRY IN A PULL DOWN MENU</b>
+<select name="Components" multiple="multiple" size="3">
+<option selected="selected">HARDDISKS</option>
+<option value="cd">CDROM</option>
+<option value="dvd">DVD</option>
+<option selected="selected" value="keyboard">KEYBOARD</option>
+<option selected="selected" value="mouse">MOUSE</option>
+<option value="printer">PRINTER</option>
+</select>
+<br/><br/>
+
+<input type="checkbox" name="fav"  value="icecream"/> Icecream
+<input type="checkbox" name="fav"  value="coffee"/> Coffee
+<br/><br/>
+
+<b>lets have a multiple line input text box now</b><br/>
+<textarea rows="7" cols="60" name="Commentbox">
+</textarea>
+<br/>
+<h1 align="center">RADIO BUTTONS</h1>
+<strong>COLOURS</strong>
+<br/>
+'Ever' Green:<input type="radio" name="color" id="radio1" value="green" />
+'True' Blue:<input type="radio" name="color" id="radio2" value="blue" />
+'Chocolate' Brown:<input type="radio" name="color" id="radio3" value="brown" checked="checked"/>
+<br/>
+<button>Click</button>
+<input type="button" value="Click" />
+<br/><br/>
+<button name="homepage" value="textbutton" type="button" 
+style="background-color:blue;color:yellow;">
+<img src="logo.bmp" width="30" height="20" />
+<br>Company Home Page
+</button>
+
+</form>
+</body>
+</html>
+

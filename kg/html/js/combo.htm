@@ -1,0 +1,27 @@
+<p ALIGN=Center>
+     <center>
+          <h1>Example of Form with a Combo Box</h1>
+     </center>
+</p>
+<form METHOD=POST ACTION="http://www.2kweb.net/cgi-bin/formmail.cgi">
+     <p>Person's Name:
+          <input TYPE="text" NAME="persons-name" SIZE="40" MAXLENGTH="40">
+          <input TYPE="hidden" NAME="recipient" SIZE="40" MAXLENGTH="40">
+     </p>
+     <p>Password:
+          <input TYPE="password" NAME="password" SIZE="10" MAXLENGTH="10">
+     </p>
+     <p>Please Place me on your mailing list:
+          <input TYPE="checkbox" NAME="mailing-list" VALUE="Yes" checked>
+     </p>
+     <p>What Country do you Live in?
+          <select NAME="Country">
+               <option VALUE="USA">United States
+               <option VALUE="CA">Canada
+          </select>
+     </p>
+     <p>
+          <input TYPE="submit" NAME="Request" VALUE="Submit This Form">
+          <input TYPE="reset" NAME="Clear" VALUE="Clear Form and Start Over">
+     </p>
+</form>

@@ -1,0 +1,6 @@
+<html>
+<frameset cols="15%,85%">
+<frame src=""contents.html"name="win1">
+<frame src=""home.html"name="win2">
+</frameset>
+<html>

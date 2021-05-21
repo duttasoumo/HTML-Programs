@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Meet and Greet</title>
+<script type="text/javascript">
+	function sayHello()
+	{
+		var x;
+		x=document.myform.username.value;
+		if (x !="")
+		alert("Hiiiiii " +x+ "  byeeeee!");
+		else
+		alert("Don't be shy!!");
+	}
+</script>
+</head>
+<body>
+<form  name="myform" >
+<b>Your Name PLease</b>
+<input type="text" name="username" size="50" />
+<input type="button" value="CLICK" onclick="sayHello();" />
+</form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<table border="1"  bgcolor="skyblue" width="50%">
+<tr>
+<td rowspan="3">ROLL</td>
+<td rowspan="3">NAME</td>
+<td cowspan="7">MARKS</td>
+</tr>
+<tr>
+<td colspan="3">SEMESTER-I</td>
+<td colspan="3">SEMESTER-II</td>
+<td rowspan="2">TOTAL</td>
+</tr>
+<tr>
+<td>S11</td>
+<td>S12</td>
+<td>S13</td>
+<td>S21</td>
+<td>S22</td>
+<td>S23</td>
+</tr>
+<tr>
+<td>01</td>
+<td>S BASU<td>
+<td>33</td>
+<td>44</td>
+<td>47</td>
+<td>57</td>
+<td>67</td>
+<td>77</td>
+</tr>

@@ -1,0 +1,37 @@
+<html>
+<head>
+</head>
+<body>
+ <input type="text" id=1 name="T1" maxlength=5 size="6"> 
+<BR>
+<input type="radio" id=2 name="MF" value="M" /> M<BR>
+<BR>
+<input type="radio" name="MF" value="F" />F <BR>
+<BR>
+<input type="checkbox" name="vehicle" value="Bike" /> I have a bike
+<BR>
+<input type="checkbox" name="vehicle" value="Car" /> I have a car 
+<BR>
+<select name="shipping">  
+ <option value="1"> standard</option>  
+ <option value="2"> 2-day</option>  
+ <option value="3"> overnight</option>  
+</select> 
+ <input type="button" name="B1" value="OK" onClick="abc()">
+</BODY>
+</HTML>
+
+<script language="JavaScript">
+function abc()
+{
+   
+    
+    if (T1.value==1)
+   	 document.getElementById("2").style.visibility = "hidden";
+   else
+               document.getElementById("2").style.visibility = "visible";
+  
+ }
+
+</script>
+

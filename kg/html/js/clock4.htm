@@ -1,0 +1,52 @@
+<SCRIPT LANGUAGE="JavaScript">
+------------------------------------------------------------------------------------------------  GET DATE FUNCTION-->function gettheDate() 
+{Todays = new Date();TheDate = "" + (Todays.getMonth()+ 1) +" / "+ Todays.getDate() + " / " + Todays.getYear() document.clock.date.value = TheDate;}var timerID = null;
+var timerRunning = false; ------------------------------------------------------------------------------------------------  STOP CLOCK FUNCTION-->
+function stopclock (){
+        if(timerRunning);
+                clearTimeout(timerID);
+        timerRunning = false;
+    }
+// ------------------------------------------------------------------------------------------------  START CLOCK-->
+function startclock () {
+        stopclock();
+        gettheDate()
+        showtime();
+    }
+//  ------------------------------------------------------------------------------------------------  SHOW TIME-->
+function showtime () {
+        var now = new Date();
+        var hours = now.getHours();
+        var minutes = now.getMinutes();
+        var seconds = now.getSeconds()
+        var timeValue = "" + ((hours >12) ? hours -12 :hours)
+        timeValue += ((minutes < 10) ? ":0" : ":") + minutes
+        timeValue += ((seconds < 10) ? ":0" : ":") + seconds
+        timeValue += (hours >= 12) ? " P.M." : " A.M."
+        document.clock.face.value = timeValue;
+        // you could replace the above with this
+        // and have a clock on the status bar:
+        // window.status = timeValue;
+        timerID = setTimeout("showtime()",1000);
+        timerRunning = true;
+    }
+
+// ------------------------------------------------------------------------------------------------  END OF JAVASCRIPT CODE --->
+
+
+</SCRIPT>
+
+<center>
+<BODY onLoad="startclock()">
+<form name="clock" onSubmit="0">
+Date:
+<BR>
+<input type=text name="date" size=12 value="">     
+<BR>
+<BR>This effect (clock or date) can also be in the form of a button!
+<BR>
+<BR>
+Time:
+<BR><input type=button name="face" size=12 
+value="JavaScript!!">
+</form>

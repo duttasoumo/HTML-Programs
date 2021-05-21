@@ -1,0 +1,41 @@
+<html>
+<head>
+<style>
+body
+{
+				/*Remove below line to make bgimage NOT fixed*/
+background-attachment:fixed;
+background-repeat: no-repeat;
+
+			/*Use center center in place of 300 200 to center bg image*/
+background-position: 10 10;
+}
+</style>
+<script language="JavaScript">
+var bgimages=new Array()
+bgimages[0]="Desert.jpg"
+bgimages[1]="Koala.jpg"
+bgimages[2]="Tulips.jpg"
+bgimages[3]="Jellyfish.jpg"
+bgimages[4]="Penguins.jpg"
+				//preload images
+var pathToImg=new Array()
+for (i=0;i<bgimages.length;i++){
+pathToImg[i]=new Image()
+pathToImg[i].src=bgimages[i]
+}
+var inc=-1
+function bgSlide(){
+if (inc<bgimages.length-1)
+inc++
+else
+inc=0
+document.body.background=pathToImg[inc].src
+}
+if (document.all||document.getElementById)
+window.onload=new Function('setInterval("bgSlide()",1000)')
+</script>
+</head>
+<body>
+</body>
+</html>

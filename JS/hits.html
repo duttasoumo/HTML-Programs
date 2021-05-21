@@ -1,0 +1,49 @@
+<html>
+<head>
+<script language="Javascript">
+function BakeCookie()
+{
+var today = new Date ();
+var expdate = new Date ();
+expdate.setTime(expdate.getTime() + ( 1*24 * 60 * 60 * 1000 * 365));
+//expdate.setTime(expdate.getTime() + ( 24 * 60 * 60 ));
+expdate=expdate.toGMTString();
+alert(ServeCookie("hits"));
+document.cookie="hits="+(parseInt(ServeCookie("hits"))+1)+";expires="+expdate+";"; 
+
+}
+function ServeCookie(name)
+{
+var namestr = name + "="
+var namelen = namestr.length
+var cooklen = document.cookie.length
+var i = 0
+while (i < cooklen)
+{ var j = i + namelen
+if (document.cookie.substring(i, j) == namestr)
+{ endstr = document.cookie.indexOf (";", j)
+if (endstr == -1) {endstr = document.cookie.length}
+return document.cookie.substring(j,endstr)
+}
+i = document.cookie.indexOf(" ", i) + 1
+if (i == 0) break
+}
+return null
+}
+</script>
+</head>
+<body bgcolor="#FFFFFF">
+<p align="center"><H1><strong>Welcome to the Cookie Monster!</strong></H1></p><br>
+<script language="Javascript">
+var today = new Date ();
+var expdate = new Date ();
+expdate.setTime(expdate.getTime() + (1 * 24 * 60 * 60 * 1000 * 365));
+//expdate.setTime(expdate.getTime() + ( 24 * 60 * 60));
+expdate=expdate.toGMTString();
+if (ServeCookie("hits") == null)
+document.cookie="hits=1;expires="+expdate+";"; 
+
+BakeCookie()
+</script>
+</body>
+</html>

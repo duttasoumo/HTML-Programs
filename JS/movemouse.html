@@ -1,0 +1,15 @@
+<html>
+<BODY >
+<div id="spaceship" style="position:absolute">
+Hello
+</div>
+<script>
+function moving2(){
+spaceship.style.pixelLeft=event.clientX
+spaceship.style.pixelTop=event.clientY
+//moveid2=setTimeout("moving2()",50)
+}
+document.onmousemove = moving2;
+</script>
+</body>
+</html>

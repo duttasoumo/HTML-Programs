@@ -1,0 +1,41 @@
+
+
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+
+function scroll_text() {
+for (meter = 0; meter < place; meter++) {
+out += " "}
+if (place >= 0)
+out += display_text
+else out = display_text.substring(-place,display_text.length)
+document.scroll_form.field.value = out
+out = ""
+place--
+if (place < -(display_text.length)) {
+place = 50
+}
+setTimeout('scroll_text()',100)
+}
+</SCRIPT>
+
+
+<BODY>
+<FORM NAME="scroll_form">
+<input type="text" name="field" size="25">
+</FORM>
+<SCRIPT LANGUAGE="JavaScript">
+
+var display_text  = "Humpty & Dumpty were two good friends"
+var place;
+var meter; 
+var out = "";
+var place = 50;
+scroll_text();
+</SCRIPT>
+</body>
+
+
+
+

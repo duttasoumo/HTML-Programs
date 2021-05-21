@@ -1,0 +1,8 @@
+<html>
+<title>Gallery</title>
+
+<body bgcolor="pink">
+<image src="Chrysanthemum.jpg" width="20" height="200" border="2">
+
+<body>
+</html>

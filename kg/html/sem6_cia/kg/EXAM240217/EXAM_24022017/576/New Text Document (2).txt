@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>new releases</title>
+<body>
+<center>
+<h1>NEW RELEASE!!</h1>
+<font size=3 face=comic sans ms>
+<ol>
+<li>The Jungle Book</li>
+<li>The adventures of Tintin</li>
+</ol>

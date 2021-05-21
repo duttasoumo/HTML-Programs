@@ -1,0 +1,24 @@
+<HTML>
+<BODY>
+<input type=text name=mmm>
+<input type=text name=qqq>
+<input type=text name=xxx>
+<input type=text name=nnn>
+<input type=button name=MyButton value=OK Onclick=abc()>
+</BODY>
+</HTML>
+
+
+<script language="JavaScript">
+function abc()
+{
+//   xxx.value=mmm.value.charAt(3) 
+//   xxx.value=mmm.value.charAt(qqq.value)
+//   xxx.value=mmm.value.toLowerCase()
+//   nnn.value=mmm.value.substring(qqq.value,xxx.value)
+     nnn.value=mmm.value.replace(qqq.value,xxx.value)
+
+   
+}
+</script>
+

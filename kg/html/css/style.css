@@ -1,0 +1,13 @@
+body {font-size:16pt;font-family:times new roman;color:purple;background-color:pink;}
+
+h1 { font-size: 20 pt;font-family:sans-serif;text-align:center;
+             background:skyblue;color:red;width:75%}
+
+p{text-indent:0.5in;margin-left:25px;margin-right:25px;}
+
+a:link{color:blue;}
+a:visited{color:red;}
+a:active{color:purple;}
+a:hover{color:green;text-decoration:underline;}
+
+	

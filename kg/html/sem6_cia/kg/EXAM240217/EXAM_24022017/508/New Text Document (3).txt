@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>booklist</title>
+</head>
+<body background="logo.jpg">
+<center>
+<h1>BOOKLIST</h1>
+<ul type="circle">
+<li>ROMANCE</li>
+<ol type="i">
+<li>The Fault In Our Stars</li>
+<li>Love Story</li>
+</ol>
+<li>OTHERS</li>
+<ol type="i">
+<li>Playing It My Way</li>
+<li>The Monk Who sold His Ferrari</li>
+<li>Wings Of Fire</li>
+<li>The Secret</li>
+</ol>
+</ul>
+</center>
+</body>
+</html>
